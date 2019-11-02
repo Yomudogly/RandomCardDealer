@@ -3,20 +3,23 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Hello Rigo with Vanilla.js</title>
+        <title>Random card generator with Vanilla.js</title>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link rel="shortcut icon" href="./4geeks.ico"></head>
-    <body>
-        <div class="container-fluid text-center">
-            <h1 class="mt-5">Hello Rigo!</h1>
-            <img src="./rigo-baby.jpg"></img>
-            <p class="alert alert-warning mt-4">If this text is <b>not</b> centered and <b>yellow</b>, you probably have an error</p>
-            <div class="fixed-bottom p-4">
-                Made with ❤️ by <a href="https://www.4geeksacademy.com">4Geeks Academy</a>
+    <body class="bg-success">
+        <div class="container-fluid text-center mt-5 d-flex justify-content-center">
+            <div class="card flex-column" style="width: 18rem; height: 25rem; border-radius: 1rem; box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);">
+                <h2 class="card-title w-100 d-flex justify-content-start pl-2 pt-2 mb-0" id="suits"></h2>
+                <div class="card-body d-flex align-items-center">
+                    <h1 class="card-title w-100" id="cards"></h1>
+                </div>
+                <h2 class="card-title w-100 d-flex justify-content-end pr-2 pb-2 mb-0 mirror" id="suits1"></h2>
             </div>
         </div>
 
 
+
         <!-- do not remove this bundle.js tag -->
-        <script type="text/javascript" src="./bundle.js"></script></body>
+        <script type="text/javascript" src="./bundle.js"></script>
+    </body>
 </html>
