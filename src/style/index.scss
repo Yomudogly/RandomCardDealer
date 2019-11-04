@@ -14,10 +14,28 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
+.card {
+  width: 18rem;
+  height: 25rem;
+  border-radius: 1rem;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.card-title {
+  font-size: 7rem;
+  font-family: Helvetica, sans-serif;
+}
+
 .rotateimg180 {
+  transform: rotate(180deg);
   -webkit-transform: rotate(180deg);
   -moz-transform: rotate(180deg);
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
-  transform: rotate(180deg);
+}
+
+#suits,
+#suits1 {
+  font-size: 5rem;
 }
