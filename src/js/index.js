@@ -34,11 +34,11 @@ window.onload = function() {
     document.querySelector("#suits").classList =
       "card-title w-100 d-flex justify-content-start pl-2 pt-2 mb-0 text-danger";
     document.querySelector("#suits1").classList =
-      "card-title w-100 d-flex pl-2 pb-2 mb-0 rotateimg180 text-danger";
+      "card-title w-100 d-flex pl-2 pt-2 mb-0 rotateimg180 text-danger";
   } else {
     document.querySelector("#suits").classList =
       "card-title w-100 d-flex justify-content-start pl-2 pt-2 mb-0";
     document.querySelector("#suits1").classList =
-      "card-title w-100 d-flex pl-2 pb-2 mb-0 rotateimg180";
+      "card-title w-100 d-flex pl-2 pt-2 mb-0 rotateimg180";
   }
 };
